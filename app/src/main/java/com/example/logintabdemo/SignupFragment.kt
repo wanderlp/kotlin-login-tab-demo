@@ -5,12 +5,12 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 
-class SingupFragment: Fragment() {
+class SignupFragment: Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstances: Bundle?
     ): View? {
         return inflater.inflate(
-            R.layout.layout_singup, container, false
+            R.layout.layout_signup, container, false
         )
     }
 }
